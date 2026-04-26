@@ -1,0 +1,43 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* To center the text inside the divs we use this */
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  border: 10px solid white;
+  color: black;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 2.5rem;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+.yellow {
+  background-color: #f99b45;
+}
+.red {
+  background-color: #d95988;
+}
+.purple {
+  background-color: #819ff9;
+}
+.green {
+  background-color: #63aac0;
+}
+
+.flash {
+  background-color: white;
+}
+.userflash {
+  background-color: green;
+}

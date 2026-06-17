@@ -36,7 +36,7 @@ function levelUp() {
   level++;
   h2.innerText = `level : ${level}`;
 
-  let randIdx = Math.floor(Math.random() * 3);
+  let randIdx = Math.floor(Math.random() * 4);
   let randColor = btns[randIdx]; // s sai hamre pass array sai random color ayega , aur is color class ka ham btn access kar sakte hai
   let randBtn = document.querySelector(`.${randColor}`); // s color sai ham class banayege aur os class sai os btn ko access karenge
   //   means randcolor mai array sai color value ayee hogi aur ham nai har colors ko oske name ka class diya hai so same ham randcolor (eg..yellow aya hai) osko class banake os color ko select kar lenge

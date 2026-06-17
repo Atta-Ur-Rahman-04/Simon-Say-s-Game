@@ -41,3 +41,6 @@ body {
 .userflash {
   background-color: green;
 }
+.btn:hover {
+  border: 10px solid greenyellow;
+}
